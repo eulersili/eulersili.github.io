@@ -17,10 +17,28 @@ body {
     width: 300px;
 }
 
-h1 {
+.eulersili {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;    
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 5px solid;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(21),
+    blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
 
 .links {
