@@ -25,8 +25,8 @@ body {
     width: 21ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 6s steps(21),
-    blinking 0.5s infinite step-end alternate;
+    animation: typing 8s steps(21),
+    blinking 0.9s infinite step-end alternate;
 }
 
 @keyframes typing {
